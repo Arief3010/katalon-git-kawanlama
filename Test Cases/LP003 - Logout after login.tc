@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>LP003 - Logout after login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a48a0df7-0d14-4fe3-b26a-d13910857ae5</testCaseGuid>
+</TestCaseEntity>
