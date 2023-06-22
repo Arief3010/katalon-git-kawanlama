@@ -1,0 +1,639 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Integration test suite list" time="212.718" tests="10" failures="0" errors="0">
+   <testsuite name="Integration test suite list" tests="10" failures="0" errors="0" time="212.718" skipped="0" timestamp="2023-06-22 07:30:56" hostname="USER - DESKTOP-VIB7852" id="Test Suites/Integration test suite list">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\USER\\Katalon Studio\\Gitcode\\katalon-git-kawanlama\\Reports\\20230622_073049\\Integration test suite list\\20230622_073050"/>
+         <property name="logFiles" value="C:\\Users\\USER\\Katalon Studio\\Gitcode\\katalon-git-kawanlama\\Reports\\20230622_073049\\Integration test suite list\\20230622_073050\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="USER - DESKTOP-VIB7852"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.3.0.208"/>
+         <property name="browser" value="Chrome 114.0.0.0"/>
+         <property name="hostAddress" value="192.168.111.48"/>
+         <property name="sessionId" value="f40abc0a06d7c636aa9c0122d19306dd"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/LP002 - Login correct password" time="14.672" classname="Test Cases/LP002 - Login correct password" status="PASSED">
+         <system-out><![CDATA[2023-06-22 07:30:56 - [TEST_CASE][PASSED] - Test Cases/LP002 - Login correct password: Test Cases/LP002 - Login correct password
+
+2023-06-22 07:30:57 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-06-22 07:30:58 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-06-22 07:30:58 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-06-22 07:31:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-06-22 07:31:00 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-06-22 07:31:00 - [MESSAGE][PASSED] - Current window maximized
+
+2023-06-22 07:31:00 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/profile.php#login"): Navigate to 'https://katalon-demo-cura.herokuapp.com/profile.php#login' successfully
+
+2023-06-22 07:31:04 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/profile.php#login' successfully
+
+2023-06-22 07:31:04 - [TEST_STEP][PASSED] - setText(findTestObject("Login page/input_Username_username"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/Login page/input_Username_username'
+
+2023-06-22 07:31:05 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Login page/input_Username_username'
+
+2023-06-22 07:31:05 - [TEST_STEP][PASSED] - setText(findTestObject("Login page/input_Password_password"), "ThisIsNotAPassword"): Text 'ThisIsNotAPassword' is set on object 'Object Repository/Login page/input_Password_password'
+
+2023-06-22 07:31:06 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/Login page/input_Password_password'
+
+2023-06-22 07:31:06 - [TEST_STEP][PASSED] - click(findTestObject("Login page/button_Login")): Object: 'Object Repository/Login page/button_Login' is clicked on
+
+2023-06-22 07:31:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Login page/button_Login' is clicked on
+
+2023-06-22 07:31:07 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-06-22 07:31:10 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-06-22 07:31:10 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-06-22 07:31:11 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/LP003 - Logout after login" time="16.199" classname="Test Cases/LP003 - Logout after login" status="PASSED">
+         <system-out><![CDATA[2023-06-22 07:31:11 - [TEST_CASE][PASSED] - Test Cases/LP003 - Logout after login: Test Cases/LP003 - Logout after login
+
+2023-06-22 07:31:12 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-06-22 07:31:12 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-06-22 07:31:12 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-06-22 07:31:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-06-22 07:31:13 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-06-22 07:31:13 - [MESSAGE][PASSED] - Current window maximized
+
+2023-06-22 07:31:13 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/profile.php#login"): Navigate to 'https://katalon-demo-cura.herokuapp.com/profile.php#login' successfully
+
+2023-06-22 07:31:16 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/profile.php#login' successfully
+
+2023-06-22 07:31:16 - [TEST_STEP][PASSED] - setText(findTestObject("Login page/input_Username_username"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/Login page/input_Username_username'
+
+2023-06-22 07:31:17 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Login page/input_Username_username'
+
+2023-06-22 07:31:17 - [TEST_STEP][PASSED] - setText(findTestObject("Login page/input_Password_password"), "ThisIsNotAPassword"): Text 'ThisIsNotAPassword' is set on object 'Object Repository/Login page/input_Password_password'
+
+2023-06-22 07:31:18 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/Login page/input_Password_password'
+
+2023-06-22 07:31:18 - [TEST_STEP][PASSED] - click(findTestObject("Login page/button_Login")): Object: 'Object Repository/Login page/button_Login' is clicked on
+
+2023-06-22 07:31:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Login page/button_Login' is clicked on
+
+2023-06-22 07:31:19 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-06-22 07:31:22 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-06-22 07:31:22 - [TEST_STEP][PASSED] - click(findTestObject("Make appointment page/Burger menu")): Object: 'Object Repository/Make appointment page/Burger menu' is clicked on
+
+2023-06-22 07:31:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Make appointment page/Burger menu' is clicked on
+
+2023-06-22 07:31:22 - [TEST_STEP][PASSED] - click(findTestObject("Make appointment page/Burger menu_Logout")): Object: 'Object Repository/Make appointment page/Burger menu_Logout' is clicked on
+
+2023-06-22 07:31:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Make appointment page/Burger menu_Logout' is clicked on
+
+2023-06-22 07:31:24 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-06-22 07:31:27 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-06-22 07:31:27 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-06-22 07:31:27 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/LP004 - Login blank username and Password" time="12.012" classname="Test Cases/LP004 - Login blank username and Password" status="PASSED">
+         <system-out><![CDATA[2023-06-22 07:31:27 - [TEST_CASE][PASSED] - Test Cases/LP004 - Login blank username and Password: Test Cases/LP004 - Login blank username and Password
+
+2023-06-22 07:31:28 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-06-22 07:31:28 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-06-22 07:31:28 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-06-22 07:31:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-06-22 07:31:29 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-06-22 07:31:29 - [MESSAGE][PASSED] - Current window maximized
+
+2023-06-22 07:31:29 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/profile.php#login"): Navigate to 'https://katalon-demo-cura.herokuapp.com/profile.php#login' successfully
+
+2023-06-22 07:31:33 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/profile.php#login' successfully
+
+2023-06-22 07:31:33 - [TEST_STEP][PASSED] - setText(findTestObject("Login page/input_Username_username"), ""): Text '' is set on object 'Object Repository/Login page/input_Username_username'
+
+2023-06-22 07:31:33 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Login page/input_Username_username'
+
+2023-06-22 07:31:33 - [TEST_STEP][PASSED] - setText(findTestObject("Login page/input_Password_password"), ""): Text '' is set on object 'Object Repository/Login page/input_Password_password'
+
+2023-06-22 07:31:34 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Login page/input_Password_password'
+
+2023-06-22 07:31:34 - [TEST_STEP][PASSED] - click(findTestObject("Login page/button_Login")): Object: 'Object Repository/Login page/button_Login' is clicked on
+
+2023-06-22 07:31:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Login page/button_Login' is clicked on
+
+2023-06-22 07:31:35 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login page/Alert login failed"), 3): Object 'Object Repository/Login page/Alert login failed' is present
+
+2023-06-22 07:31:36 - [MESSAGE][PASSED] - Object 'Object Repository/Login page/Alert login failed' is present
+
+2023-06-22 07:31:36 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-06-22 07:31:39 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-06-22 07:31:39 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-06-22 07:31:39 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/LP005 - Login correct username with wrong password" time="12.141" classname="Test Cases/LP005 - Login correct username with wrong password" status="PASSED">
+         <system-out><![CDATA[2023-06-22 07:31:39 - [TEST_CASE][PASSED] - Test Cases/LP005 - Login correct username with wrong password: Test Cases/LP005 - Login correct username with wrong password
+
+2023-06-22 07:31:40 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-06-22 07:31:40 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-06-22 07:31:40 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-06-22 07:31:41 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-06-22 07:31:41 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-06-22 07:31:41 - [MESSAGE][PASSED] - Current window maximized
+
+2023-06-22 07:31:41 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/profile.php#login"): Navigate to 'https://katalon-demo-cura.herokuapp.com/profile.php#login' successfully
+
+2023-06-22 07:31:45 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/profile.php#login' successfully
+
+2023-06-22 07:31:45 - [TEST_STEP][PASSED] - setText(findTestObject("Login page/input_Username_username"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/Login page/input_Username_username'
+
+2023-06-22 07:31:46 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Login page/input_Username_username'
+
+2023-06-22 07:31:46 - [TEST_STEP][PASSED] - setText(findTestObject("Login page/input_Password_password"), ""): Text '' is set on object 'Object Repository/Login page/input_Password_password'
+
+2023-06-22 07:31:46 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Login page/input_Password_password'
+
+2023-06-22 07:31:46 - [TEST_STEP][PASSED] - click(findTestObject("Login page/button_Login")): Object: 'Object Repository/Login page/button_Login' is clicked on
+
+2023-06-22 07:31:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Login page/button_Login' is clicked on
+
+2023-06-22 07:31:47 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login page/Alert login failed"), 3): Object 'Object Repository/Login page/Alert login failed' is present
+
+2023-06-22 07:31:48 - [MESSAGE][PASSED] - Object 'Object Repository/Login page/Alert login failed' is present
+
+2023-06-22 07:31:48 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-06-22 07:31:51 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-06-22 07:31:51 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-06-22 07:31:51 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/LP006 - Login correct username and password with lowercase" time="12.515" classname="Test Cases/LP006 - Login correct username and password with lowercase" status="PASSED">
+         <system-out><![CDATA[2023-06-22 07:31:51 - [TEST_CASE][PASSED] - Test Cases/LP006 - Login correct username and password with lowercase: Test Cases/LP006 - Login correct username and password with lowercase
+
+2023-06-22 07:31:52 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-06-22 07:31:52 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-06-22 07:31:52 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-06-22 07:31:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-06-22 07:31:53 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-06-22 07:31:53 - [MESSAGE][PASSED] - Current window maximized
+
+2023-06-22 07:31:53 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/profile.php#login"): Navigate to 'https://katalon-demo-cura.herokuapp.com/profile.php#login' successfully
+
+2023-06-22 07:31:57 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/profile.php#login' successfully
+
+2023-06-22 07:31:57 - [TEST_STEP][PASSED] - setText(findTestObject("Login page/input_Username_username"), "john doe"): Text 'john doe' is set on object 'Object Repository/Login page/input_Username_username'
+
+2023-06-22 07:31:58 - [MESSAGE][PASSED] - Text 'john doe' is set on object 'Object Repository/Login page/input_Username_username'
+
+2023-06-22 07:31:58 - [TEST_STEP][PASSED] - setText(findTestObject("Login page/input_Password_password"), "thisisnotapassword"): Text 'thisisnotapassword' is set on object 'Object Repository/Login page/input_Password_password'
+
+2023-06-22 07:31:59 - [MESSAGE][PASSED] - Text 'thisisnotapassword' is set on object 'Object Repository/Login page/input_Password_password'
+
+2023-06-22 07:31:59 - [TEST_STEP][PASSED] - click(findTestObject("Login page/button_Login")): Object: 'Object Repository/Login page/button_Login' is clicked on
+
+2023-06-22 07:32:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Login page/button_Login' is clicked on
+
+2023-06-22 07:32:00 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login page/Alert login failed"), 3): Object 'Object Repository/Login page/Alert login failed' is present
+
+2023-06-22 07:32:00 - [MESSAGE][PASSED] - Object 'Object Repository/Login page/Alert login failed' is present
+
+2023-06-22 07:32:00 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-06-22 07:32:03 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-06-22 07:32:03 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-06-22 07:32:04 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/MA002 - Make Appointment current date" time="25.45" classname="Test Cases/MA002 - Make Appointment current date" status="PASSED">
+         <system-out><![CDATA[2023-06-22 07:32:04 - [TEST_CASE][PASSED] - Test Cases/MA002 - Make Appointment current date: Test Cases/MA002 - Make Appointment current date
+
+2023-06-22 07:32:05 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-06-22 07:32:05 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-06-22 07:32:05 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-06-22 07:32:06 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-06-22 07:32:06 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-06-22 07:32:06 - [MESSAGE][PASSED] - Current window maximized
+
+2023-06-22 07:32:06 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/profile.php#login"): Navigate to 'https://katalon-demo-cura.herokuapp.com/profile.php#login' successfully
+
+2023-06-22 07:32:09 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/profile.php#login' successfully
+
+2023-06-22 07:32:09 - [TEST_STEP][PASSED] - setText(findTestObject("Login page/input_Username_username"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/Login page/input_Username_username'
+
+2023-06-22 07:32:10 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Login page/input_Username_username'
+
+2023-06-22 07:32:10 - [TEST_STEP][PASSED] - setText(findTestObject("Login page/input_Password_password"), "ThisIsNotAPassword"): Text 'ThisIsNotAPassword' is set on object 'Object Repository/Login page/input_Password_password'
+
+2023-06-22 07:32:11 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/Login page/input_Password_password'
+
+2023-06-22 07:32:11 - [TEST_STEP][PASSED] - click(findTestObject("Login page/button_Login")): Object: 'Object Repository/Login page/button_Login' is clicked on
+
+2023-06-22 07:32:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Login page/button_Login' is clicked on
+
+2023-06-22 07:32:12 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-06-22 07:32:15 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-06-22 07:32:15 - [TEST_STEP][PASSED] - click(findTestObject("Make appointment page/select_Facility")): Object: 'Object Repository/Make appointment page/select_Facility' is clicked on
+
+2023-06-22 07:32:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Make appointment page/select_Facility' is clicked on
+
+2023-06-22 07:32:15 - [TEST_STEP][PASSED] - click(findTestObject("Make appointment page/input_Apply for hospital readmission_hospital_readmission")): Object: 'Object Repository/Make appointment page/input_Apply for hospital readmission_hospital_readmission' is clicked on
+
+2023-06-22 07:32:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Make appointment page/input_Apply for hospital readmission_hospital_readmission' is clicked on
+
+2023-06-22 07:32:16 - [TEST_STEP][PASSED] - click(findTestObject("Make appointment page/label_Medicare")): Object: 'Object Repository/Make appointment page/label_Medicare' is clicked on
+
+2023-06-22 07:32:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Make appointment page/label_Medicare' is clicked on
+
+2023-06-22 07:32:16 - [TEST_STEP][PASSED] - setText(findTestObject("Make appointment page/input_Visit Date"), "22/06/2023"): Text '22/06/2023' is set on object 'Object Repository/Make appointment page/input_Visit Date'
+
+2023-06-22 07:32:17 - [MESSAGE][PASSED] - Text '22/06/2023' is set on object 'Object Repository/Make appointment page/input_Visit Date'
+
+2023-06-22 07:32:17 - [TEST_STEP][PASSED] - setText(findTestObject("Make appointment page/input_Comment"), "Testing current date"): Text 'Testing current date' is set on object 'Object Repository/Make appointment page/input_Comment'
+
+2023-06-22 07:32:18 - [MESSAGE][PASSED] - Text 'Testing current date' is set on object 'Object Repository/Make appointment page/input_Comment'
+
+2023-06-22 07:32:18 - [TEST_STEP][PASSED] - click(findTestObject("Make appointment page/button_Book Appointment")): Object: 'Object Repository/Make appointment page/button_Book Appointment' is clicked on
+
+2023-06-22 07:32:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Make appointment page/button_Book Appointment' is clicked on
+
+2023-06-22 07:32:19 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2023-06-22 07:32:29 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2023-06-22 07:32:29 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-06-22 07:32:29 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/MA003 - Make Appointment future date" time="26.649" classname="Test Cases/MA003 - Make Appointment future date" status="PASSED">
+         <system-out><![CDATA[2023-06-22 07:32:29 - [TEST_CASE][PASSED] - Test Cases/MA003 - Make Appointment future date: Test Cases/MA003 - Make Appointment future date
+
+2023-06-22 07:32:30 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-06-22 07:32:30 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-06-22 07:32:30 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-06-22 07:32:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-06-22 07:32:31 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-06-22 07:32:31 - [MESSAGE][PASSED] - Current window maximized
+
+2023-06-22 07:32:31 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/profile.php#login"): Navigate to 'https://katalon-demo-cura.herokuapp.com/profile.php#login' successfully
+
+2023-06-22 07:32:35 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/profile.php#login' successfully
+
+2023-06-22 07:32:35 - [TEST_STEP][PASSED] - setText(findTestObject("Login page/input_Username_username"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/Login page/input_Username_username'
+
+2023-06-22 07:32:36 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Login page/input_Username_username'
+
+2023-06-22 07:32:36 - [TEST_STEP][PASSED] - setText(findTestObject("Login page/input_Password_password"), "ThisIsNotAPassword"): Text 'ThisIsNotAPassword' is set on object 'Object Repository/Login page/input_Password_password'
+
+2023-06-22 07:32:37 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/Login page/input_Password_password'
+
+2023-06-22 07:32:37 - [TEST_STEP][PASSED] - click(findTestObject("Login page/button_Login")): Object: 'Object Repository/Login page/button_Login' is clicked on
+
+2023-06-22 07:32:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Login page/button_Login' is clicked on
+
+2023-06-22 07:32:38 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-06-22 07:32:41 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-06-22 07:32:41 - [TEST_STEP][PASSED] - click(findTestObject("Make appointment page/select_Facility")): Object: 'Object Repository/Make appointment page/select_Facility' is clicked on
+
+2023-06-22 07:32:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Make appointment page/select_Facility' is clicked on
+
+2023-06-22 07:32:41 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Make appointment page/select_Facility"), Keys.chord(ARROW_DOWN, ENTER)): Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/Make appointment page/select_Facility'
+
+2023-06-22 07:32:42 - [MESSAGE][PASSED] - Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/Make appointment page/select_Facility'
+
+2023-06-22 07:32:42 - [TEST_STEP][PASSED] - click(findTestObject("Make appointment page/input_Apply for hospital readmission_hospital_readmission")): Object: 'Object Repository/Make appointment page/input_Apply for hospital readmission_hospital_readmission' is clicked on
+
+2023-06-22 07:32:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Make appointment page/input_Apply for hospital readmission_hospital_readmission' is clicked on
+
+2023-06-22 07:32:42 - [TEST_STEP][PASSED] - click(findTestObject("Make appointment page/label_Medicare")): Object: 'Object Repository/Make appointment page/label_Medicare' is clicked on
+
+2023-06-22 07:32:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Make appointment page/label_Medicare' is clicked on
+
+2023-06-22 07:32:43 - [TEST_STEP][PASSED] - setText(findTestObject("Make appointment page/input_Visit Date"), "27/06/2023"): Text '27/06/2023' is set on object 'Object Repository/Make appointment page/input_Visit Date'
+
+2023-06-22 07:32:44 - [MESSAGE][PASSED] - Text '27/06/2023' is set on object 'Object Repository/Make appointment page/input_Visit Date'
+
+2023-06-22 07:32:44 - [TEST_STEP][PASSED] - setText(findTestObject("Make appointment page/input_Comment"), "Testing future date"): Text 'Testing future date' is set on object 'Object Repository/Make appointment page/input_Comment'
+
+2023-06-22 07:32:45 - [MESSAGE][PASSED] - Text 'Testing future date' is set on object 'Object Repository/Make appointment page/input_Comment'
+
+2023-06-22 07:32:45 - [TEST_STEP][PASSED] - click(findTestObject("Make appointment page/button_Book Appointment")): Object: 'Object Repository/Make appointment page/button_Book Appointment' is clicked on
+
+2023-06-22 07:32:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Make appointment page/button_Book Appointment' is clicked on
+
+2023-06-22 07:32:45 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2023-06-22 07:32:55 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2023-06-22 07:32:55 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-06-22 07:32:56 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/MA004 - Make Appointment past date" time="25.982" classname="Test Cases/MA004 - Make Appointment past date" status="PASSED">
+         <system-out><![CDATA[2023-06-22 07:32:56 - [TEST_CASE][PASSED] - Test Cases/MA004 - Make Appointment past date: Test Cases/MA004 - Make Appointment past date
+
+2023-06-22 07:32:57 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-06-22 07:32:57 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-06-22 07:32:57 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-06-22 07:32:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-06-22 07:32:58 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-06-22 07:32:58 - [MESSAGE][PASSED] - Current window maximized
+
+2023-06-22 07:32:58 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/profile.php#login"): Navigate to 'https://katalon-demo-cura.herokuapp.com/profile.php#login' successfully
+
+2023-06-22 07:33:01 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/profile.php#login' successfully
+
+2023-06-22 07:33:01 - [TEST_STEP][PASSED] - setText(findTestObject("Login page/input_Username_username"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/Login page/input_Username_username'
+
+2023-06-22 07:33:02 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Login page/input_Username_username'
+
+2023-06-22 07:33:02 - [TEST_STEP][PASSED] - setText(findTestObject("Login page/input_Password_password"), "ThisIsNotAPassword"): Text 'ThisIsNotAPassword' is set on object 'Object Repository/Login page/input_Password_password'
+
+2023-06-22 07:33:03 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/Login page/input_Password_password'
+
+2023-06-22 07:33:03 - [TEST_STEP][PASSED] - click(findTestObject("Login page/button_Login")): Object: 'Object Repository/Login page/button_Login' is clicked on
+
+2023-06-22 07:33:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Login page/button_Login' is clicked on
+
+2023-06-22 07:33:04 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-06-22 07:33:07 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-06-22 07:33:07 - [TEST_STEP][PASSED] - click(findTestObject("Make appointment page/select_Facility")): Object: 'Object Repository/Make appointment page/select_Facility' is clicked on
+
+2023-06-22 07:33:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Make appointment page/select_Facility' is clicked on
+
+2023-06-22 07:33:08 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Make appointment page/select_Facility"), Keys.chord(ARROW_DOWN, ARROW_DOWN, ENTER)): Keys 'DOWN + DOWN + ENTER + ' sent to object: 'Object Repository/Make appointment page/select_Facility'
+
+2023-06-22 07:33:08 - [MESSAGE][PASSED] - Keys 'DOWN + DOWN + ENTER + ' sent to object: 'Object Repository/Make appointment page/select_Facility'
+
+2023-06-22 07:33:08 - [TEST_STEP][PASSED] - click(findTestObject("Make appointment page/input_Apply for hospital readmission_hospital_readmission")): Object: 'Object Repository/Make appointment page/input_Apply for hospital readmission_hospital_readmission' is clicked on
+
+2023-06-22 07:33:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Make appointment page/input_Apply for hospital readmission_hospital_readmission' is clicked on
+
+2023-06-22 07:33:08 - [TEST_STEP][PASSED] - click(findTestObject("Make appointment page/label_Medicare")): Object: 'Object Repository/Make appointment page/label_Medicare' is clicked on
+
+2023-06-22 07:33:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Make appointment page/label_Medicare' is clicked on
+
+2023-06-22 07:33:09 - [TEST_STEP][PASSED] - setText(findTestObject("Make appointment page/input_Visit Date"), "10/06/2023"): Text '10/06/2023' is set on object 'Object Repository/Make appointment page/input_Visit Date'
+
+2023-06-22 07:33:10 - [MESSAGE][PASSED] - Text '10/06/2023' is set on object 'Object Repository/Make appointment page/input_Visit Date'
+
+2023-06-22 07:33:10 - [TEST_STEP][PASSED] - setText(findTestObject("Make appointment page/input_Comment"), "Testing past date"): Text 'Testing past date' is set on object 'Object Repository/Make appointment page/input_Comment'
+
+2023-06-22 07:33:11 - [MESSAGE][PASSED] - Text 'Testing past date' is set on object 'Object Repository/Make appointment page/input_Comment'
+
+2023-06-22 07:33:11 - [TEST_STEP][PASSED] - click(findTestObject("Make appointment page/button_Book Appointment")): Object: 'Object Repository/Make appointment page/button_Book Appointment' is clicked on
+
+2023-06-22 07:33:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Make appointment page/button_Book Appointment' is clicked on
+
+2023-06-22 07:33:11 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2023-06-22 07:33:21 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2023-06-22 07:33:21 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-06-22 07:33:22 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/MA005 - Make Appointment and logout" time="29.805" classname="Test Cases/MA005 - Make Appointment and logout" status="PASSED">
+         <system-out><![CDATA[2023-06-22 07:33:22 - [TEST_CASE][PASSED] - Test Cases/MA005 - Make Appointment and logout: Test Cases/MA005 - Make Appointment and logout
+
+2023-06-22 07:33:23 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-06-22 07:33:23 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-06-22 07:33:23 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-06-22 07:33:24 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-06-22 07:33:24 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-06-22 07:33:24 - [MESSAGE][PASSED] - Current window maximized
+
+2023-06-22 07:33:24 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/profile.php#login"): Navigate to 'https://katalon-demo-cura.herokuapp.com/profile.php#login' successfully
+
+2023-06-22 07:33:27 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/profile.php#login' successfully
+
+2023-06-22 07:33:27 - [TEST_STEP][PASSED] - setText(findTestObject("Login page/input_Username_username"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/Login page/input_Username_username'
+
+2023-06-22 07:33:28 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Login page/input_Username_username'
+
+2023-06-22 07:33:28 - [TEST_STEP][PASSED] - setText(findTestObject("Login page/input_Password_password"), "ThisIsNotAPassword"): Text 'ThisIsNotAPassword' is set on object 'Object Repository/Login page/input_Password_password'
+
+2023-06-22 07:33:29 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/Login page/input_Password_password'
+
+2023-06-22 07:33:29 - [TEST_STEP][PASSED] - click(findTestObject("Login page/button_Login")): Object: 'Object Repository/Login page/button_Login' is clicked on
+
+2023-06-22 07:33:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Login page/button_Login' is clicked on
+
+2023-06-22 07:33:30 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-06-22 07:33:33 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-06-22 07:33:33 - [TEST_STEP][PASSED] - click(findTestObject("Make appointment page/select_Facility")): Object: 'Object Repository/Make appointment page/select_Facility' is clicked on
+
+2023-06-22 07:33:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Make appointment page/select_Facility' is clicked on
+
+2023-06-22 07:33:33 - [TEST_STEP][PASSED] - click(findTestObject("Make appointment page/input_Apply for hospital readmission_hospital_readmission")): Object: 'Object Repository/Make appointment page/input_Apply for hospital readmission_hospital_readmission' is clicked on
+
+2023-06-22 07:33:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Make appointment page/input_Apply for hospital readmission_hospital_readmission' is clicked on
+
+2023-06-22 07:33:34 - [TEST_STEP][PASSED] - click(findTestObject("Make appointment page/label_Medicare")): Object: 'Object Repository/Make appointment page/label_Medicare' is clicked on
+
+2023-06-22 07:33:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Make appointment page/label_Medicare' is clicked on
+
+2023-06-22 07:33:34 - [TEST_STEP][PASSED] - setText(findTestObject("Make appointment page/input_Visit Date"), "25/06/2023"): Text '25/06/2023' is set on object 'Object Repository/Make appointment page/input_Visit Date'
+
+2023-06-22 07:33:35 - [MESSAGE][PASSED] - Text '25/06/2023' is set on object 'Object Repository/Make appointment page/input_Visit Date'
+
+2023-06-22 07:33:35 - [TEST_STEP][PASSED] - setText(findTestObject("Make appointment page/input_Comment"), "Make appointment and logout"): Text 'Make appointment and logout' is set on object 'Object Repository/Make appointment page/input_Comment'
+
+2023-06-22 07:33:36 - [MESSAGE][PASSED] - Text 'Make appointment and logout' is set on object 'Object Repository/Make appointment page/input_Comment'
+
+2023-06-22 07:33:36 - [TEST_STEP][PASSED] - click(findTestObject("Make appointment page/button_Book Appointment")): Object: 'Object Repository/Make appointment page/button_Book Appointment' is clicked on
+
+2023-06-22 07:33:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Make appointment page/button_Book Appointment' is clicked on
+
+2023-06-22 07:33:37 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2023-06-22 07:33:47 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2023-06-22 07:33:47 - [TEST_STEP][PASSED] - click(findTestObject("Make appointment page/Burger menu")): Object: 'Object Repository/Make appointment page/Burger menu' is clicked on
+
+2023-06-22 07:33:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Make appointment page/Burger menu' is clicked on
+
+2023-06-22 07:33:47 - [TEST_STEP][PASSED] - click(findTestObject("Make appointment page/Burger menu_Logout")): Object: 'Object Repository/Make appointment page/Burger menu_Logout' is clicked on
+
+2023-06-22 07:33:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Make appointment page/Burger menu_Logout' is clicked on
+
+2023-06-22 07:33:48 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-06-22 07:33:51 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-06-22 07:33:51 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-06-22 07:33:52 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/MA006 - Make Appointment Relogin" time="36.827" classname="Test Cases/MA006 - Make Appointment Relogin" status="PASSED">
+         <system-out><![CDATA[2023-06-22 07:33:52 - [TEST_CASE][PASSED] - Test Cases/MA006 - Make Appointment Relogin: Test Cases/MA006 - Make Appointment Relogin
+
+2023-06-22 07:33:52 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-06-22 07:33:52 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-06-22 07:33:52 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-06-22 07:33:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-06-22 07:33:54 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-06-22 07:33:54 - [MESSAGE][PASSED] - Current window maximized
+
+2023-06-22 07:33:54 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/profile.php#login"): Navigate to 'https://katalon-demo-cura.herokuapp.com/profile.php#login' successfully
+
+2023-06-22 07:33:58 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/profile.php#login' successfully
+
+2023-06-22 07:33:58 - [TEST_STEP][PASSED] - setText(findTestObject("Login page/input_Username_username"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/Login page/input_Username_username'
+
+2023-06-22 07:33:59 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Login page/input_Username_username'
+
+2023-06-22 07:33:59 - [TEST_STEP][PASSED] - setText(findTestObject("Login page/input_Password_password"), "ThisIsNotAPassword"): Text 'ThisIsNotAPassword' is set on object 'Object Repository/Login page/input_Password_password'
+
+2023-06-22 07:34:00 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/Login page/input_Password_password'
+
+2023-06-22 07:34:00 - [TEST_STEP][PASSED] - click(findTestObject("Login page/button_Login")): Object: 'Object Repository/Login page/button_Login' is clicked on
+
+2023-06-22 07:34:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Login page/button_Login' is clicked on
+
+2023-06-22 07:34:01 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-06-22 07:34:04 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-06-22 07:34:04 - [TEST_STEP][PASSED] - click(findTestObject("Make appointment page/select_Facility")): Object: 'Object Repository/Make appointment page/select_Facility' is clicked on
+
+2023-06-22 07:34:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Make appointment page/select_Facility' is clicked on
+
+2023-06-22 07:34:04 - [TEST_STEP][PASSED] - click(findTestObject("Make appointment page/input_Apply for hospital readmission_hospital_readmission")): Object: 'Object Repository/Make appointment page/input_Apply for hospital readmission_hospital_readmission' is clicked on
+
+2023-06-22 07:34:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Make appointment page/input_Apply for hospital readmission_hospital_readmission' is clicked on
+
+2023-06-22 07:34:04 - [TEST_STEP][PASSED] - click(findTestObject("Make appointment page/label_Medicare")): Object: 'Object Repository/Make appointment page/label_Medicare' is clicked on
+
+2023-06-22 07:34:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Make appointment page/label_Medicare' is clicked on
+
+2023-06-22 07:34:05 - [TEST_STEP][PASSED] - setText(findTestObject("Make appointment page/input_Visit Date"), "25/06/2023"): Text '25/06/2023' is set on object 'Object Repository/Make appointment page/input_Visit Date'
+
+2023-06-22 07:34:06 - [MESSAGE][PASSED] - Text '25/06/2023' is set on object 'Object Repository/Make appointment page/input_Visit Date'
+
+2023-06-22 07:34:06 - [TEST_STEP][PASSED] - setText(findTestObject("Make appointment page/input_Comment"), "Make appointment and relogin"): Text 'Make appointment and relogin' is set on object 'Object Repository/Make appointment page/input_Comment'
+
+2023-06-22 07:34:06 - [MESSAGE][PASSED] - Text 'Make appointment and relogin' is set on object 'Object Repository/Make appointment page/input_Comment'
+
+2023-06-22 07:34:06 - [TEST_STEP][PASSED] - click(findTestObject("Make appointment page/button_Book Appointment")): Object: 'Object Repository/Make appointment page/button_Book Appointment' is clicked on
+
+2023-06-22 07:34:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Make appointment page/button_Book Appointment' is clicked on
+
+2023-06-22 07:34:07 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2023-06-22 07:34:17 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2023-06-22 07:34:17 - [TEST_STEP][PASSED] - click(findTestObject("Make appointment page/Burger menu")): Object: 'Object Repository/Make appointment page/Burger menu' is clicked on
+
+2023-06-22 07:34:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Make appointment page/Burger menu' is clicked on
+
+2023-06-22 07:34:17 - [TEST_STEP][PASSED] - click(findTestObject("Make appointment page/Burger menu_Logout")): Object: 'Object Repository/Make appointment page/Burger menu_Logout' is clicked on
+
+2023-06-22 07:34:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Make appointment page/Burger menu_Logout' is clicked on
+
+2023-06-22 07:34:19 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-06-22 07:34:22 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-06-22 07:34:22 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/profile.php#login"): Navigate to 'https://katalon-demo-cura.herokuapp.com/profile.php#login' successfully
+
+2023-06-22 07:34:22 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/profile.php#login' successfully
+
+2023-06-22 07:34:22 - [TEST_STEP][PASSED] - setText(findTestObject("Login page/input_Username_username"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/Login page/input_Username_username'
+
+2023-06-22 07:34:23 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Login page/input_Username_username'
+
+2023-06-22 07:34:23 - [TEST_STEP][PASSED] - setText(findTestObject("Login page/input_Password_password"), "ThisIsNotAPassword"): Text 'ThisIsNotAPassword' is set on object 'Object Repository/Login page/input_Password_password'
+
+2023-06-22 07:34:24 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/Login page/input_Password_password'
+
+2023-06-22 07:34:24 - [TEST_STEP][PASSED] - click(findTestObject("Login page/button_Login")): Object: 'Object Repository/Login page/button_Login' is clicked on
+
+2023-06-22 07:34:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Login page/button_Login' is clicked on
+
+2023-06-22 07:34:25 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-06-22 07:34:28 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-06-22 07:34:28 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-06-22 07:34:29 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-06-22 07:30:56 - [TEST_SUITE][PASSED] - Integration test suite list: Test Cases/MA006 - Make Appointment Relogin]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

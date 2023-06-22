@@ -37,13 +37,19 @@ WebUI.click(findTestObject('Make appointment page/input_Apply for hospital readm
 
 WebUI.click(findTestObject('Make appointment page/label_Medicare'))
 
-WebUI.setText(findTestObject('Make appointment page/input_Visit Date'), '22/06/2023')
+WebUI.setText(findTestObject('Make appointment page/input_Visit Date'), '25/06/2023')
 
-WebUI.setText(findTestObject('Make appointment page/input_Comment'), 'Testing current date')
+WebUI.setText(findTestObject('Make appointment page/input_Comment'), 'Make appointment and logout')
 
 WebUI.click(findTestObject('Make appointment page/button_Book Appointment'))
 
 WebUI.delay(10)
+
+WebUI.click(findTestObject('Make appointment page/Burger menu'))
+
+WebUI.click(findTestObject('Make appointment page/Burger menu_Logout'))
+
+WebUI.delay(3)
 
 WebUI.closeBrowser()
 

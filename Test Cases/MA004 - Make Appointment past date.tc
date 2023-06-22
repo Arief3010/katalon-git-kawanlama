@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>MA004 - Make Appointment past date</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>804e142c-ec67-4212-beaa-e0838f78f9ff</testCaseGuid>
+</TestCaseEntity>

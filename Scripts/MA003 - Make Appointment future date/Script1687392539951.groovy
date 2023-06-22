@@ -33,13 +33,15 @@ WebUI.delay(3)
 
 WebUI.click(findTestObject('Make appointment page/select_Facility'))
 
+WebUI.sendKeys(findTestObject('Make appointment page/select_Facility'), Keys.chord(Keys.ARROW_DOWN, Keys.ENTER))
+
 WebUI.click(findTestObject('Make appointment page/input_Apply for hospital readmission_hospital_readmission'))
 
 WebUI.click(findTestObject('Make appointment page/label_Medicare'))
 
-WebUI.setText(findTestObject('Make appointment page/input_Visit Date'), '22/06/2023')
+WebUI.setText(findTestObject('Make appointment page/input_Visit Date'), '27/06/2023')
 
-WebUI.setText(findTestObject('Make appointment page/input_Comment'), 'Testing current date')
+WebUI.setText(findTestObject('Make appointment page/input_Comment'), 'Testing future date')
 
 WebUI.click(findTestObject('Make appointment page/button_Book Appointment'))
 

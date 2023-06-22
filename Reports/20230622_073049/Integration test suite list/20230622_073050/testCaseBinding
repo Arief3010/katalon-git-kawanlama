@@ -1,0 +1,10 @@
+{"testCaseName":"Test Cases/LP002 - Login correct password","testCaseId":"Test Cases/LP002 - Login correct password","iterationVariableName":""}
+{"testCaseName":"Test Cases/LP003 - Logout after login","testCaseId":"Test Cases/LP003 - Logout after login","iterationVariableName":""}
+{"testCaseName":"Test Cases/LP004 - Login blank username and Password","testCaseId":"Test Cases/LP004 - Login blank username and Password","iterationVariableName":""}
+{"testCaseName":"Test Cases/LP005 - Login correct username with wrong password","testCaseId":"Test Cases/LP005 - Login correct username with wrong password","iterationVariableName":""}
+{"testCaseName":"Test Cases/LP006 - Login correct username and password with lowercase","testCaseId":"Test Cases/LP006 - Login correct username and password with lowercase","iterationVariableName":""}
+{"testCaseName":"Test Cases/MA002 - Make Appointment current date","testCaseId":"Test Cases/MA002 - Make Appointment current date","iterationVariableName":""}
+{"testCaseName":"Test Cases/MA003 - Make Appointment future date","testCaseId":"Test Cases/MA003 - Make Appointment future date","iterationVariableName":""}
+{"testCaseName":"Test Cases/MA004 - Make Appointment past date","testCaseId":"Test Cases/MA004 - Make Appointment past date","iterationVariableName":""}
+{"testCaseName":"Test Cases/MA005 - Make Appointment and logout","testCaseId":"Test Cases/MA005 - Make Appointment and logout","iterationVariableName":""}
+{"testCaseName":"Test Cases/MA006 - Make Appointment Relogin","testCaseId":"Test Cases/MA006 - Make Appointment Relogin","iterationVariableName":""}

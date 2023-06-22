@@ -37,13 +37,29 @@ WebUI.click(findTestObject('Make appointment page/input_Apply for hospital readm
 
 WebUI.click(findTestObject('Make appointment page/label_Medicare'))
 
-WebUI.setText(findTestObject('Make appointment page/input_Visit Date'), '22/06/2023')
+WebUI.setText(findTestObject('Make appointment page/input_Visit Date'), '25/06/2023')
 
-WebUI.setText(findTestObject('Make appointment page/input_Comment'), 'Testing current date')
+WebUI.setText(findTestObject('Make appointment page/input_Comment'), 'Make appointment and relogin')
 
 WebUI.click(findTestObject('Make appointment page/button_Book Appointment'))
 
 WebUI.delay(10)
+
+WebUI.click(findTestObject('Make appointment page/Burger menu'))
+
+WebUI.click(findTestObject('Make appointment page/Burger menu_Logout'))
+
+WebUI.delay(3)
+
+WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/profile.php#login')
+
+WebUI.setText(findTestObject('Login page/input_Username_username'), 'John Doe')
+
+WebUI.setText(findTestObject('Login page/input_Password_password'), 'ThisIsNotAPassword')
+
+WebUI.click(findTestObject('Login page/button_Login'))
+
+WebUI.delay(3)
 
 WebUI.closeBrowser()
 

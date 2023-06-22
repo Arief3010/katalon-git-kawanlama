@@ -1,0 +1,156 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Integration test suite list,Chrome 114.0.0.0,,,2023-06-22 07:30:56,2023-06-22 07:34:29,"3m - 32,718s",PASSED
+,,,,,,,
+Test Cases/LP002 - Login correct password,Chrome 114.0.0.0,,,2023-06-22 07:30:56,2023-06-22 07:31:11,"14,672s",PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-06-22 07:30:57,2023-06-22 07:31:00,"2,898s",PASSED
+maximizeWindow(),Chrome 114.0.0.0,,,2023-06-22 07:31:00,2023-06-22 07:31:00,"0,171s",PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/profile.php#login"")",Chrome 114.0.0.0,,,2023-06-22 07:31:00,2023-06-22 07:31:04,"3,972s",PASSED
+"setText(findTestObject(""Login page/input_Username_username""), ""John Doe"")",Chrome 114.0.0.0,,,2023-06-22 07:31:04,2023-06-22 07:31:05,"0,940s",PASSED
+"setText(findTestObject(""Login page/input_Password_password""), ""ThisIsNotAPassword"")",Chrome 114.0.0.0,,,2023-06-22 07:31:05,2023-06-22 07:31:06,"0,808s",PASSED
+"click(findTestObject(""Login page/button_Login""))",Chrome 114.0.0.0,,,2023-06-22 07:31:06,2023-06-22 07:31:07,"1,192s",PASSED
+delay(3),Chrome 114.0.0.0,,,2023-06-22 07:31:07,2023-06-22 07:31:10,"3,047s",PASSED
+closeBrowser(),Chrome 114.0.0.0,,,2023-06-22 07:31:10,2023-06-22 07:31:11,"0,895s",PASSED
+,,,,,,,
+Test Cases/LP003 - Logout after login,Chrome 114.0.0.0,,,2023-06-22 07:31:11,2023-06-22 07:31:27,"16,199s",PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-06-22 07:31:12,2023-06-22 07:31:13,"1,275s",PASSED
+maximizeWindow(),Chrome 114.0.0.0,,,2023-06-22 07:31:13,2023-06-22 07:31:13,"0,147s",PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/profile.php#login"")",Chrome 114.0.0.0,,,2023-06-22 07:31:13,2023-06-22 07:31:16,"3,313s",PASSED
+"setText(findTestObject(""Login page/input_Username_username""), ""John Doe"")",Chrome 114.0.0.0,,,2023-06-22 07:31:16,2023-06-22 07:31:17,"0,836s",PASSED
+"setText(findTestObject(""Login page/input_Password_password""), ""ThisIsNotAPassword"")",Chrome 114.0.0.0,,,2023-06-22 07:31:17,2023-06-22 07:31:18,"0,687s",PASSED
+"click(findTestObject(""Login page/button_Login""))",Chrome 114.0.0.0,,,2023-06-22 07:31:18,2023-06-22 07:31:19,"1,138s",PASSED
+delay(3),Chrome 114.0.0.0,,,2023-06-22 07:31:19,2023-06-22 07:31:22,"3,003s",PASSED
+"click(findTestObject(""Make appointment page/Burger menu""))",Chrome 114.0.0.0,,,2023-06-22 07:31:22,2023-06-22 07:31:22,"0,390s",PASSED
+"click(findTestObject(""Make appointment page/Burger menu_Logout""))",Chrome 114.0.0.0,,,2023-06-22 07:31:22,2023-06-22 07:31:24,"1,158s",PASSED
+delay(3),Chrome 114.0.0.0,,,2023-06-22 07:31:24,2023-06-22 07:31:27,"3,005s",PASSED
+closeBrowser(),Chrome 114.0.0.0,,,2023-06-22 07:31:27,2023-06-22 07:31:27,"0,656s",PASSED
+,,,,,,,
+Test Cases/LP004 - Login blank username and Password,Chrome 114.0.0.0,,,2023-06-22 07:31:27,2023-06-22 07:31:39,"12,012s",PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-06-22 07:31:28,2023-06-22 07:31:29,"1,250s",PASSED
+maximizeWindow(),Chrome 114.0.0.0,,,2023-06-22 07:31:29,2023-06-22 07:31:29,"0,136s",PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/profile.php#login"")",Chrome 114.0.0.0,,,2023-06-22 07:31:29,2023-06-22 07:31:33,"3,411s",PASSED
+"setText(findTestObject(""Login page/input_Username_username""), """")",Chrome 114.0.0.0,,,2023-06-22 07:31:33,2023-06-22 07:31:33,"0,731s",PASSED
+"setText(findTestObject(""Login page/input_Password_password""), """")",Chrome 114.0.0.0,,,2023-06-22 07:31:33,2023-06-22 07:31:34,"0,662s",PASSED
+"click(findTestObject(""Login page/button_Login""))",Chrome 114.0.0.0,,,2023-06-22 07:31:34,2023-06-22 07:31:35,"1,101s",PASSED
+"verifyElementPresent(findTestObject(""Login page/Alert login failed""), 3)",Chrome 114.0.0.0,Validate alert is correct or not,,2023-06-22 07:31:35,2023-06-22 07:31:36,"0,457s",PASSED
+delay(3),Chrome 114.0.0.0,,,2023-06-22 07:31:36,2023-06-22 07:31:39,"3,003s",PASSED
+closeBrowser(),Chrome 114.0.0.0,,,2023-06-22 07:31:39,2023-06-22 07:31:39,"0,664s",PASSED
+,,,,,,,
+Test Cases/LP005 - Login correct username with wrong password,Chrome 114.0.0.0,,,2023-06-22 07:31:39,2023-06-22 07:31:51,"12,141s",PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-06-22 07:31:40,2023-06-22 07:31:41,"1,208s",PASSED
+maximizeWindow(),Chrome 114.0.0.0,,,2023-06-22 07:31:41,2023-06-22 07:31:41,"0,132s",PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/profile.php#login"")",Chrome 114.0.0.0,,,2023-06-22 07:31:41,2023-06-22 07:31:45,"3,445s",PASSED
+"setText(findTestObject(""Login page/input_Username_username""), ""John Doe"")",Chrome 114.0.0.0,,,2023-06-22 07:31:45,2023-06-22 07:31:46,"0,864s",PASSED
+"setText(findTestObject(""Login page/input_Password_password""), """")",Chrome 114.0.0.0,,,2023-06-22 07:31:46,2023-06-22 07:31:46,"0,702s",PASSED
+"click(findTestObject(""Login page/button_Login""))",Chrome 114.0.0.0,,,2023-06-22 07:31:46,2023-06-22 07:31:47,"1,069s",PASSED
+"verifyElementPresent(findTestObject(""Login page/Alert login failed""), 3)",Chrome 114.0.0.0,Validate alert is correct or not,,2023-06-22 07:31:47,2023-06-22 07:31:48,"0,451s",PASSED
+delay(3),Chrome 114.0.0.0,,,2023-06-22 07:31:48,2023-06-22 07:31:51,"3,002s",PASSED
+closeBrowser(),Chrome 114.0.0.0,,,2023-06-22 07:31:51,2023-06-22 07:31:51,"0,658s",PASSED
+,,,,,,,
+Test Cases/LP006 - Login correct username and password with lowercase,Chrome 114.0.0.0,,,2023-06-22 07:31:51,2023-06-22 07:32:04,"12,515s",PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-06-22 07:31:52,2023-06-22 07:31:53,"1,235s",PASSED
+maximizeWindow(),Chrome 114.0.0.0,,,2023-06-22 07:31:53,2023-06-22 07:31:53,"0,134s",PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/profile.php#login"")",Chrome 114.0.0.0,,,2023-06-22 07:31:53,2023-06-22 07:31:57,"3,829s",PASSED
+"setText(findTestObject(""Login page/input_Username_username""), ""john doe"")",Chrome 114.0.0.0,,,2023-06-22 07:31:57,2023-06-22 07:31:58,"0,825s",PASSED
+"setText(findTestObject(""Login page/input_Password_password""), ""thisisnotapassword"")",Chrome 114.0.0.0,,,2023-06-22 07:31:58,2023-06-22 07:31:59,"0,778s",PASSED
+"click(findTestObject(""Login page/button_Login""))",Chrome 114.0.0.0,,,2023-06-22 07:31:59,2023-06-22 07:32:00,"1,046s",PASSED
+"verifyElementPresent(findTestObject(""Login page/Alert login failed""), 3)",Chrome 114.0.0.0,Validate alert is correct or not,,2023-06-22 07:32:00,2023-06-22 07:32:00,"0,438s",PASSED
+delay(3),Chrome 114.0.0.0,,,2023-06-22 07:32:00,2023-06-22 07:32:03,"3,003s",PASSED
+closeBrowser(),Chrome 114.0.0.0,,,2023-06-22 07:32:03,2023-06-22 07:32:04,"0,674s",PASSED
+,,,,,,,
+Test Cases/MA002 - Make Appointment current date,Chrome 114.0.0.0,,,2023-06-22 07:32:04,2023-06-22 07:32:29,"25,450s",PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-06-22 07:32:05,2023-06-22 07:32:06,"1,212s",PASSED
+maximizeWindow(),Chrome 114.0.0.0,,,2023-06-22 07:32:06,2023-06-22 07:32:06,"0,133s",PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/profile.php#login"")",Chrome 114.0.0.0,,,2023-06-22 07:32:06,2023-06-22 07:32:09,"3,300s",PASSED
+"setText(findTestObject(""Login page/input_Username_username""), ""John Doe"")",Chrome 114.0.0.0,,,2023-06-22 07:32:09,2023-06-22 07:32:10,"0,832s",PASSED
+"setText(findTestObject(""Login page/input_Password_password""), ""ThisIsNotAPassword"")",Chrome 114.0.0.0,,,2023-06-22 07:32:10,2023-06-22 07:32:11,"0,663s",PASSED
+"click(findTestObject(""Login page/button_Login""))",Chrome 114.0.0.0,,,2023-06-22 07:32:11,2023-06-22 07:32:12,"1,090s",PASSED
+delay(3),Chrome 114.0.0.0,,,2023-06-22 07:32:12,2023-06-22 07:32:15,"3,004s",PASSED
+"click(findTestObject(""Make appointment page/select_Facility""))",Chrome 114.0.0.0,,,2023-06-22 07:32:15,2023-06-22 07:32:15,"0,381s",PASSED
+"click(findTestObject(""Make appointment page/input_Apply for hospital readmission_hospital_readmission""))",Chrome 114.0.0.0,,,2023-06-22 07:32:15,2023-06-22 07:32:16,"0,430s",PASSED
+"click(findTestObject(""Make appointment page/label_Medicare""))",Chrome 114.0.0.0,,,2023-06-22 07:32:16,2023-06-22 07:32:16,"0,433s",PASSED
+"setText(findTestObject(""Make appointment page/input_Visit Date""), ""22/06/2023"")",Chrome 114.0.0.0,,,2023-06-22 07:32:16,2023-06-22 07:32:17,"0,910s",PASSED
+"setText(findTestObject(""Make appointment page/input_Comment""), ""Testing current date"")",Chrome 114.0.0.0,,,2023-06-22 07:32:17,2023-06-22 07:32:18,"0,870s",PASSED
+"click(findTestObject(""Make appointment page/button_Book Appointment""))",Chrome 114.0.0.0,,,2023-06-22 07:32:18,2023-06-22 07:32:19,"0,779s",PASSED
+delay(10),Chrome 114.0.0.0,,,2023-06-22 07:32:19,2023-06-22 07:32:29,"10,005s",PASSED
+closeBrowser(),Chrome 114.0.0.0,,,2023-06-22 07:32:29,2023-06-22 07:32:29,"0,725s",PASSED
+,,,,,,,
+Test Cases/MA003 - Make Appointment future date,Chrome 114.0.0.0,,,2023-06-22 07:32:29,2023-06-22 07:32:56,"26,649s",PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-06-22 07:32:30,2023-06-22 07:32:31,"1,206s",PASSED
+maximizeWindow(),Chrome 114.0.0.0,,,2023-06-22 07:32:31,2023-06-22 07:32:31,"0,131s",PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/profile.php#login"")",Chrome 114.0.0.0,,,2023-06-22 07:32:31,2023-06-22 07:32:35,"4,107s",PASSED
+"setText(findTestObject(""Login page/input_Username_username""), ""John Doe"")",Chrome 114.0.0.0,,,2023-06-22 07:32:35,2023-06-22 07:32:36,"0,861s",PASSED
+"setText(findTestObject(""Login page/input_Password_password""), ""ThisIsNotAPassword"")",Chrome 114.0.0.0,,,2023-06-22 07:32:36,2023-06-22 07:32:37,"0,666s",PASSED
+"click(findTestObject(""Login page/button_Login""))",Chrome 114.0.0.0,,,2023-06-22 07:32:37,2023-06-22 07:32:38,"1,137s",PASSED
+delay(3),Chrome 114.0.0.0,,,2023-06-22 07:32:38,2023-06-22 07:32:41,"3,003s",PASSED
+"click(findTestObject(""Make appointment page/select_Facility""))",Chrome 114.0.0.0,,,2023-06-22 07:32:41,2023-06-22 07:32:41,"0,389s",PASSED
+"sendKeys(findTestObject(""Make appointment page/select_Facility""), Keys.chord(ARROW_DOWN, ENTER))",Chrome 114.0.0.0,,,2023-06-22 07:32:41,2023-06-22 07:32:42,"0,419s",PASSED
+"click(findTestObject(""Make appointment page/input_Apply for hospital readmission_hospital_readmission""))",Chrome 114.0.0.0,,,2023-06-22 07:32:42,2023-06-22 07:32:42,"0,445s",PASSED
+"click(findTestObject(""Make appointment page/label_Medicare""))",Chrome 114.0.0.0,,,2023-06-22 07:32:42,2023-06-22 07:32:43,"0,442s",PASSED
+"setText(findTestObject(""Make appointment page/input_Visit Date""), ""27/06/2023"")",Chrome 114.0.0.0,,,2023-06-22 07:32:43,2023-06-22 07:32:44,"0,905s",PASSED
+"setText(findTestObject(""Make appointment page/input_Comment""), ""Testing future date"")",Chrome 114.0.0.0,,,2023-06-22 07:32:44,2023-06-22 07:32:45,"0,909s",PASSED
+"click(findTestObject(""Make appointment page/button_Book Appointment""))",Chrome 114.0.0.0,,,2023-06-22 07:32:45,2023-06-22 07:32:45,"0,763s",PASSED
+delay(10),Chrome 114.0.0.0,,,2023-06-22 07:32:45,2023-06-22 07:32:55,"10,002s",PASSED
+closeBrowser(),Chrome 114.0.0.0,,,2023-06-22 07:32:55,2023-06-22 07:32:56,"0,683s",PASSED
+,,,,,,,
+Test Cases/MA004 - Make Appointment past date,Chrome 114.0.0.0,,,2023-06-22 07:32:56,2023-06-22 07:33:22,"25,982s",PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-06-22 07:32:57,2023-06-22 07:32:58,"1,231s",PASSED
+maximizeWindow(),Chrome 114.0.0.0,,,2023-06-22 07:32:58,2023-06-22 07:32:58,"0,137s",PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/profile.php#login"")",Chrome 114.0.0.0,,,2023-06-22 07:32:58,2023-06-22 07:33:01,"3,255s",PASSED
+"setText(findTestObject(""Login page/input_Username_username""), ""John Doe"")",Chrome 114.0.0.0,,,2023-06-22 07:33:01,2023-06-22 07:33:02,"0,792s",PASSED
+"setText(findTestObject(""Login page/input_Password_password""), ""ThisIsNotAPassword"")",Chrome 114.0.0.0,,,2023-06-22 07:33:02,2023-06-22 07:33:03,"0,688s",PASSED
+"click(findTestObject(""Login page/button_Login""))",Chrome 114.0.0.0,,,2023-06-22 07:33:03,2023-06-22 07:33:04,"1,293s",PASSED
+delay(3),Chrome 114.0.0.0,,,2023-06-22 07:33:04,2023-06-22 07:33:07,"3,003s",PASSED
+"click(findTestObject(""Make appointment page/select_Facility""))",Chrome 114.0.0.0,,,2023-06-22 07:33:07,2023-06-22 07:33:08,"0,398s",PASSED
+"sendKeys(findTestObject(""Make appointment page/select_Facility""), Keys.chord(ARROW_DOWN, ARROW_DOWN, ENTER))",Chrome 114.0.0.0,,,2023-06-22 07:33:08,2023-06-22 07:33:08,"0,461s",PASSED
+"click(findTestObject(""Make appointment page/input_Apply for hospital readmission_hospital_readmission""))",Chrome 114.0.0.0,,,2023-06-22 07:33:08,2023-06-22 07:33:08,"0,458s",PASSED
+"click(findTestObject(""Make appointment page/label_Medicare""))",Chrome 114.0.0.0,,,2023-06-22 07:33:08,2023-06-22 07:33:09,"0,411s",PASSED
+"setText(findTestObject(""Make appointment page/input_Visit Date""), ""10/06/2023"")",Chrome 114.0.0.0,,,2023-06-22 07:33:09,2023-06-22 07:33:10,"0,890s",PASSED
+"setText(findTestObject(""Make appointment page/input_Comment""), ""Testing past date"")",Chrome 114.0.0.0,,,2023-06-22 07:33:10,2023-06-22 07:33:11,"0,862s",PASSED
+"click(findTestObject(""Make appointment page/button_Book Appointment""))",Chrome 114.0.0.0,,,2023-06-22 07:33:11,2023-06-22 07:33:11,"0,755s",PASSED
+delay(10),Chrome 114.0.0.0,,,2023-06-22 07:33:11,2023-06-22 07:33:21,"10,007s",PASSED
+closeBrowser(),Chrome 114.0.0.0,,,2023-06-22 07:33:21,2023-06-22 07:33:22,"0,699s",PASSED
+,,,,,,,
+Test Cases/MA005 - Make Appointment and logout,Chrome 114.0.0.0,,,2023-06-22 07:33:22,2023-06-22 07:33:52,"29,805s",PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-06-22 07:33:23,2023-06-22 07:33:24,"1,207s",PASSED
+maximizeWindow(),Chrome 114.0.0.0,,,2023-06-22 07:33:24,2023-06-22 07:33:24,"0,136s",PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/profile.php#login"")",Chrome 114.0.0.0,,,2023-06-22 07:33:24,2023-06-22 07:33:27,"3,299s",PASSED
+"setText(findTestObject(""Login page/input_Username_username""), ""John Doe"")",Chrome 114.0.0.0,,,2023-06-22 07:33:27,2023-06-22 07:33:28,"0,779s",PASSED
+"setText(findTestObject(""Login page/input_Password_password""), ""ThisIsNotAPassword"")",Chrome 114.0.0.0,,,2023-06-22 07:33:28,2023-06-22 07:33:29,"0,724s",PASSED
+"click(findTestObject(""Login page/button_Login""))",Chrome 114.0.0.0,,,2023-06-22 07:33:29,2023-06-22 07:33:30,"1,080s",PASSED
+delay(3),Chrome 114.0.0.0,,,2023-06-22 07:33:30,2023-06-22 07:33:33,"3,002s",PASSED
+"click(findTestObject(""Make appointment page/select_Facility""))",Chrome 114.0.0.0,,,2023-06-22 07:33:33,2023-06-22 07:33:33,"0,415s",PASSED
+"click(findTestObject(""Make appointment page/input_Apply for hospital readmission_hospital_readmission""))",Chrome 114.0.0.0,,,2023-06-22 07:33:33,2023-06-22 07:33:34,"0,406s",PASSED
+"click(findTestObject(""Make appointment page/label_Medicare""))",Chrome 114.0.0.0,,,2023-06-22 07:33:34,2023-06-22 07:33:34,"0,398s",PASSED
+"setText(findTestObject(""Make appointment page/input_Visit Date""), ""25/06/2023"")",Chrome 114.0.0.0,,,2023-06-22 07:33:34,2023-06-22 07:33:35,"0,867s",PASSED
+"setText(findTestObject(""Make appointment page/input_Comment""), ""Make appointment and logout"")",Chrome 114.0.0.0,,,2023-06-22 07:33:35,2023-06-22 07:33:36,"0,856s",PASSED
+"click(findTestObject(""Make appointment page/button_Book Appointment""))",Chrome 114.0.0.0,,,2023-06-22 07:33:36,2023-06-22 07:33:37,"0,725s",PASSED
+delay(10),Chrome 114.0.0.0,,,2023-06-22 07:33:37,2023-06-22 07:33:47,"10,007s",PASSED
+"click(findTestObject(""Make appointment page/Burger menu""))",Chrome 114.0.0.0,,,2023-06-22 07:33:47,2023-06-22 07:33:47,"0,403s",PASSED
+"click(findTestObject(""Make appointment page/Burger menu_Logout""))",Chrome 114.0.0.0,,,2023-06-22 07:33:47,2023-06-22 07:33:48,"1,150s",PASSED
+delay(3),Chrome 114.0.0.0,,,2023-06-22 07:33:48,2023-06-22 07:33:51,"3,004s",PASSED
+closeBrowser(),Chrome 114.0.0.0,,,2023-06-22 07:33:51,2023-06-22 07:33:52,"0,698s",PASSED
+,,,,,,,
+Test Cases/MA006 - Make Appointment Relogin,Chrome 114.0.0.0,,,2023-06-22 07:33:52,2023-06-22 07:34:29,"36,827s",PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-06-22 07:33:52,2023-06-22 07:33:54,"1,258s",PASSED
+maximizeWindow(),Chrome 114.0.0.0,,,2023-06-22 07:33:54,2023-06-22 07:33:54,"0,134s",PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/profile.php#login"")",Chrome 114.0.0.0,,,2023-06-22 07:33:54,2023-06-22 07:33:58,"4,279s",PASSED
+"setText(findTestObject(""Login page/input_Username_username""), ""John Doe"")",Chrome 114.0.0.0,,,2023-06-22 07:33:58,2023-06-22 07:33:59,"0,722s",PASSED
+"setText(findTestObject(""Login page/input_Password_password""), ""ThisIsNotAPassword"")",Chrome 114.0.0.0,,,2023-06-22 07:33:59,2023-06-22 07:34:00,"0,664s",PASSED
+"click(findTestObject(""Login page/button_Login""))",Chrome 114.0.0.0,,,2023-06-22 07:34:00,2023-06-22 07:34:01,"1,051s",PASSED
+delay(3),Chrome 114.0.0.0,,,2023-06-22 07:34:01,2023-06-22 07:34:04,"3,003s",PASSED
+"click(findTestObject(""Make appointment page/select_Facility""))",Chrome 114.0.0.0,,,2023-06-22 07:34:04,2023-06-22 07:34:04,"0,402s",PASSED
+"click(findTestObject(""Make appointment page/input_Apply for hospital readmission_hospital_readmission""))",Chrome 114.0.0.0,,,2023-06-22 07:34:04,2023-06-22 07:34:04,"0,382s",PASSED
+"click(findTestObject(""Make appointment page/label_Medicare""))",Chrome 114.0.0.0,,,2023-06-22 07:34:04,2023-06-22 07:34:05,"0,360s",PASSED
+"setText(findTestObject(""Make appointment page/input_Visit Date""), ""25/06/2023"")",Chrome 114.0.0.0,,,2023-06-22 07:34:05,2023-06-22 07:34:06,"0,830s",PASSED
+"setText(findTestObject(""Make appointment page/input_Comment""), ""Make appointment and relogin"")",Chrome 114.0.0.0,,,2023-06-22 07:34:06,2023-06-22 07:34:06,"0,835s",PASSED
+"click(findTestObject(""Make appointment page/button_Book Appointment""))",Chrome 114.0.0.0,,,2023-06-22 07:34:06,2023-06-22 07:34:07,"0,722s",PASSED
+delay(10),Chrome 114.0.0.0,,,2023-06-22 07:34:07,2023-06-22 07:34:17,"10,005s",PASSED
+"click(findTestObject(""Make appointment page/Burger menu""))",Chrome 114.0.0.0,,,2023-06-22 07:34:17,2023-06-22 07:34:17,"0,369s",PASSED
+"click(findTestObject(""Make appointment page/Burger menu_Logout""))",Chrome 114.0.0.0,,,2023-06-22 07:34:17,2023-06-22 07:34:19,"1,284s",PASSED
+delay(3),Chrome 114.0.0.0,,,2023-06-22 07:34:19,2023-06-22 07:34:22,"3,003s",PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/profile.php#login"")",Chrome 114.0.0.0,,,2023-06-22 07:34:22,2023-06-22 07:34:22,"0,412s",PASSED
+"setText(findTestObject(""Login page/input_Username_username""), ""John Doe"")",Chrome 114.0.0.0,,,2023-06-22 07:34:22,2023-06-22 07:34:23,"0,894s",PASSED
+"setText(findTestObject(""Login page/input_Password_password""), ""ThisIsNotAPassword"")",Chrome 114.0.0.0,,,2023-06-22 07:34:23,2023-06-22 07:34:24,"0,736s",PASSED
+"click(findTestObject(""Login page/button_Login""))",Chrome 114.0.0.0,,,2023-06-22 07:34:24,2023-06-22 07:34:25,"1,135s",PASSED
+delay(3),Chrome 114.0.0.0,,,2023-06-22 07:34:25,2023-06-22 07:34:28,"3,020s",PASSED
+closeBrowser(),Chrome 114.0.0.0,,,2023-06-22 07:34:28,2023-06-22 07:34:29,"0,719s",PASSED
