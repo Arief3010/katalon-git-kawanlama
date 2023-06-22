@@ -31,5 +31,7 @@ WebUI.click(findTestObject('Login page/button_Login'))
 
 WebUI.delay(3)
 
+WebUI.click(findTestObject(null))
+
 WebUI.closeBrowser()
 
