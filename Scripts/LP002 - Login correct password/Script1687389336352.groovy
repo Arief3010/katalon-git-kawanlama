@@ -21,6 +21,7 @@ WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
+'Enter URL'
 WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/profile.php#login')
 
 WebUI.setText(findTestObject('Login page/input_Username_username'), 'John Doe')
